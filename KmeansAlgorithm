@@ -38,3 +38,4 @@ def density_plot(data): #自定义作图函数
 pic_output = 'D:/pd_'
 for i in range(k):
   density_plot(data[r[u'聚类类别']==i]).savefig(u'%s%s.png' %(pic_output, i))
+
